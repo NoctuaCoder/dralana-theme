@@ -453,6 +453,21 @@ button {
     align-items: center;
     padding-top: 80px;
     overflow: hidden;
+    background-image: url('hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg,
+            rgba(240, 237, 220, 0.85) 0%,
+            rgba(240, 237, 220, 0.75) 50%,
+            rgba(223, 160, 170, 0.15) 100%);
+    z-index: 0;
 }
 
 .hero-bg {
@@ -461,9 +476,6 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg,
-            var(--color-cream) 0%,
-            rgba(199, 217, 229, 0.2) 100%);
     z-index: -1;
 }
 
@@ -474,7 +486,7 @@ button {
     right: -10%;
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(87, 124, 142, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(185, 172, 140, 0.08) 0%, transparent 70%);
     border-radius: 50%;
 }
 
@@ -485,13 +497,15 @@ button {
     left: -5%;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(47, 65, 87, 0.04) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(223, 160, 170, 0.06) 0%, transparent 70%);
     border-radius: 50%;
 }
 
 .hero-content {
     max-width: 700px;
     padding: var(--spacing-4xl) 0;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-tag {
