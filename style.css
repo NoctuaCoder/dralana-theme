@@ -1280,8 +1280,8 @@ button {
    Footer
    =================================== */
 .footer {
-    background: var(--color-graphite);
-    color: var(--color-cream);
+    background: var(--color-coffee-dark);
+    color: var(--color-eggshell);
     padding: var(--spacing-3xl) 0 var(--spacing-xl);
 }
 
@@ -1293,18 +1293,18 @@ button {
 }
 
 .footer-brand .logo {
-    color: var(--color-slate-blue-light);
+    color: var(--color-eggshell);
     margin-bottom: var(--spacing-md);
 }
 
 .footer-brand p {
-    color: var(--color-cream);
+    color: var(--color-eggshell);
     opacity: 0.9;
 }
 
 .footer-links h4,
 .footer-contact h4 {
-    color: var(--color-slate-blue-light);
+    color: var(--color-pink-light);
     margin-bottom: var(--spacing-md);
     font-weight: 600;
 }
@@ -1316,18 +1316,18 @@ button {
 }
 
 .footer-links a {
-    color: var(--color-cream);
+    color: var(--color-eggshell);
     opacity: 0.85;
     transition: var(--transition-base);
 }
 
 .footer-links a:hover {
     opacity: 1;
-    color: var(--color-slate-blue-light);
+    color: var(--color-sea-pink);
 }
 
 .footer-contact p {
-    color: var(--color-cream);
+    color: var(--color-eggshell);
     opacity: 0.85;
     margin-bottom: var(--spacing-xs);
 }
@@ -1335,8 +1335,8 @@ button {
 .footer-bottom {
     text-align: center;
     padding-top: var(--spacing-xl);
-    border-top: 1px solid rgba(249, 245, 236, 0.2);
-    color: var(--color-cream);
+    border-top: 1px solid rgba(240, 237, 220, 0.2);
+    color: var(--color-eggshell);
     opacity: 0.8;
 }
 
