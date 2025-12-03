@@ -453,10 +453,9 @@ button {
     align-items: center;
     padding-top: 80px;
     overflow: hidden;
-    background-image: url('hero-bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(135deg,
+            var(--color-eggshell) 0%,
+            var(--color-pink-light) 100%);
 }
 
 .hero::before {
@@ -470,19 +469,19 @@ button {
     z-index: 0;
 }
 
-/* Cherry Blossom Shadows (Sakura) */
+/* Cherry Blossom Painting (Sakura) - Main Art */
 .hero::after {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
-    width: 50%;
+    width: 60%;
     height: 100%;
     background-image: url('sakura-right.png');
     background-size: contain;
     background-position: top right;
     background-repeat: no-repeat;
-    opacity: 0.3;
+    opacity: 0.6;
     z-index: 0;
     pointer-events: none;
 }
@@ -495,10 +494,10 @@ button {
     bottom: 0;
     z-index: -1;
     background-image: url('sakura-left.png');
-    background-size: 30%;
+    background-size: 40%;
     background-position: left center;
     background-repeat: no-repeat;
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 .hero-bg::before {
@@ -508,7 +507,7 @@ button {
     right: -10%;
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(185, 172, 140, 0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(223, 160, 170, 0.1) 0%, transparent 70%);
     border-radius: 50%;
 }
 
@@ -519,7 +518,7 @@ button {
     left: -5%;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(223, 160, 170, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(223, 160, 170, 0.08) 0%, transparent 70%);
     border-radius: 50%;
 }
 
