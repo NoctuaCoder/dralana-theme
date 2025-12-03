@@ -1,16 +1,6 @@
-# Dra. Alana - Terapia Ocupacional
+# 🌸 Dra. Alana - Terapia Ocupacional
 
-Um website profissional e moderno para profissionais de Terapia Ocupacional, com design clean e corporativo.
-
-## 🎨 Paleta de Cores (Soft Blue & Slate)
-
-Uma combinação sofisticada e serena de azuis e tons neutros:
-
-- **Soft Blue** (`#C7D9E5`): Azul suave acinzentado, usado para fundos e detalhes leves.
-- **Slate Medium** (`#577C8E`): Azul ardósia médio, cor primária para destaques.
-- **Navy Dark** (`#2F4157`): Azul marinho escuro, para textos e contrastes fortes.
-- **Cream** (`#F4EFEB`): Creme/off-white, fundo principal suave.
-- **White** (`#FFFFFF`): Branco puro, para áreas de respiro e cards.
+Website profissional e criativo para terapeuta ocupacional, combinando **profissionalismo** e **criatividade** em um design surreal e memorável.
 
 ## ✨ Características
 
