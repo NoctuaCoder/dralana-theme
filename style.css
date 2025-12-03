@@ -469,21 +469,28 @@ button {
     z-index: 0;
 }
 
-/* Cherry Blossom Painting (Sakura) - Main Art */
-.hero::after {
-    content: '';
+/* Cherry Blossom SVG Styling */
+.sakura-right {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60%;
+    width: 400px;
     height: 100%;
-    background-image: url('sakura-right.png');
-    background-size: contain;
-    background-position: top right;
-    background-repeat: no-repeat;
-    opacity: 0.6;
     z-index: 0;
     pointer-events: none;
+    opacity: 0.7;
+}
+
+.sakura-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 600px;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.6;
 }
 
 .hero-bg {
@@ -493,11 +500,6 @@ button {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-image: url('sakura-left.png');
-    background-size: 40%;
-    background-position: left center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
 }
 
 .hero-bg::before {
