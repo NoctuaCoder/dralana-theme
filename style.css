@@ -389,11 +389,9 @@ button {
 
 .logo-icon {
     display: inline-block;
-    font-size: 1.5em;
-    background: linear-gradient(135deg, var(--color-roman-coffee), var(--color-sea-pink));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    height: 2.5em;
+    width: auto;
+    object-fit: contain;
     filter: drop-shadow(0 0 10px rgba(223, 160, 170, 0.4));
     animation: float 6s ease-in-out infinite;
 }
@@ -469,29 +467,54 @@ button {
     z-index: 0;
 }
 
-/* Cherry Blossom SVG Styling */
-.sakura-right {
+/* Cherry Blossom Decorations - Scattered Elegantly */
+.cherry-blossom-top-right {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 400px;
-    height: 100%;
+    top: 5%;
+    right: 2%;
+    width: 350px;
+    max-width: 30vw;
+    height: auto;
     z-index: 0;
     pointer-events: none;
-    opacity: 0.7;
+    opacity: 0.4;
+    animation: petalFloat 10s ease-in-out infinite;
+    filter: drop-shadow(0 4px 12px rgba(223, 160, 170, 0.15));
+    transform: rotate(15deg);
 }
 
-.sakura-left {
+.cherry-blossom-left {
     position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 300px;
-    height: 600px;
+    top: 30%;
+    left: -5%;
+    width: 280px;
+    max-width: 25vw;
+    height: auto;
     z-index: 0;
     pointer-events: none;
-    opacity: 0.6;
+    opacity: 0.35;
+    animation: petalFloat 12s ease-in-out infinite;
+    animation-delay: -3s;
+    filter: drop-shadow(0 4px 12px rgba(223, 160, 170, 0.12));
+    transform: rotate(-20deg) scaleX(-1);
 }
+
+.cherry-blossom-bottom-right {
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    width: 250px;
+    max-width: 22vw;
+    height: auto;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.3;
+    animation: petalFloat 14s ease-in-out infinite;
+    animation-delay: -6s;
+    filter: drop-shadow(0 4px 12px rgba(223, 160, 170, 0.1));
+    transform: rotate(-10deg);
+}
+
 
 .hero-bg {
     position: absolute;
@@ -500,6 +523,11 @@ button {
     right: 0;
     bottom: 0;
     z-index: -1;
+    background-image: url('hero-floral-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
 }
 
 .hero-bg::before {
